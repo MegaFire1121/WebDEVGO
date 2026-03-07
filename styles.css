@@ -58,7 +58,7 @@ transition: 0.3s;
 }
 
 .nav-btn:hover {
-background-color: #ff4757;
+background-color:rgb(92, 218, 255);
 transform: translateY(-2px);
 }
 .nav-btn:active {
@@ -70,13 +70,10 @@ transform: scale(0.95);
   min-height: 30vh;
   height: 30vh;
   width: 100%;
-  /*MOST IMPORTANT RIGHT NOW*/
   background-image: url("images/Ai_Hoshino_Banner.png");
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   border-bottom: 3px solid #ddd;
-  border-bottom: 3px solid gray;
 }
 
 .headerlogo img {
