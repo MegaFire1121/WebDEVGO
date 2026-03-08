@@ -80,7 +80,7 @@ transform: scale(0.95);
   min-height: 300px;
   max-height: 600px;
   width: 100%;
-  /*MOST IMPORTANT RIGHT NOW*/
+
   background-image: url("images/Ai_Hoshino_Banner.png");
   background-size: cover;
   background-position: center;
@@ -189,8 +189,45 @@ li {
 }
 
 @media (max-width: 768px) {
+
   .banner {
-    height: 25vh;  /* smaller on mobile */
+    height: 25vh;
     min-height: 200px;
+  }
+
+  
+  #hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #f4f4f4;
+    width: 100%;
+    position: absolute;
+    top: 60px; 
+    left: 0;
+    padding: 10px 0;
+    z-index: 10;
+  }
+
+  .nav-links a {
+    margin: 10px 20px;
+  }
+
+  .content-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .sidebar {
+    order: 2;  
+    margin-top: 20px;
+  }
+
+  .main-content {
+    order: 1;
   }
 }
