@@ -58,6 +58,20 @@
 
 
       </section>
+      <aside class="sidebar">
+        <div class="sidebar-box">
+          <h3>
+             Subscribe to recieve all posts related to this blog!
+          </h3>
+          <form id="subscribe-form">
+            <input type="email" id="subscribe-email" placeholder="example@address.com" required>
+            <button type="submit">Subscribe</button>
+          </form>
+          <p id="subscribe-message"></p>
+
+        </div>
+      </div>
+      </aside>
     </main>
 
 
