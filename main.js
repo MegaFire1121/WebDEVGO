@@ -26,11 +26,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-const hamburger = document.getElementById("hamburger");
-const navLinks = document.getElementById("nav-links");
+
+const hamburger = document.getElementById("hamburger-menu");
+const navLinks = document.querySelector(".nav-links");
 
 hamburger.addEventListener("click", () => {
-  if (navLinks.style.display === "flex") {
+  if(navLinks.style.display === "flex") {
     navLinks.style.display = "none";
   } else {
     navLinks.style.display = "flex";
