@@ -117,7 +117,7 @@ transform: scale(0.95);
 }
 
 .post-about-me img {
-  max-width: 250px; 
+  width: 150px; 
   height: auto;    
   display: block;    
   margin: 20px auto; 
