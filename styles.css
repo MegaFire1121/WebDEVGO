@@ -127,6 +127,15 @@ transform: scale(0.95);
   display:block;
 }
 
+.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+
+
 .content-wrap {
   max-width: 1100px;
   margin: auto;
