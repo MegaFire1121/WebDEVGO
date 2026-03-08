@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const navLinks = document.querySelector(".nav-links");
 
   hamburger.addEventListener("click", () => {
-    // toggle nav visibility
     if (navLinks.style.display === "flex") {
       navLinks.style.display = "none";
     } else {
