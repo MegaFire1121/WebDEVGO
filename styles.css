@@ -74,8 +74,9 @@ transform: scale(0.95);
 
 
 .banner {
-  min-height: 30vh;
   height: 50vh;
+  min-height: 300px;
+  max-height: 600px;
   width: 100%;
   /*MOST IMPORTANT RIGHT NOW*/
   background-image: url("images/Ai_Hoshino_Banner.png");
@@ -176,4 +177,14 @@ ul, ol {
 
 li {
   margin-bottom: 5px; 
+}
+
+
+
+
+@media (max-width: 768px) {
+  .banner {
+    height: 25vh;  /* smaller on mobile */
+    min-height: 200px;
+  }
 }
