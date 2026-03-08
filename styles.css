@@ -182,7 +182,7 @@ li {
 }
 
 
-#hamburger {
+#hamburger-menu {
   display: none;
   font-size: 2rem;
   cursor: pointer;
@@ -196,7 +196,7 @@ li {
   }
 
   
-  #hamburger {
+  #hamburger-menu {
     display: block;
   }
 
