@@ -96,7 +96,7 @@ transform: scale(0.95);
   text-align: center;
   border-top: 3px solid #000;
   font-size: 1rem;
-  position: relative;
+  position: fixed;
   width: 100%;
   padding: 20px;
   bottom: 0;
