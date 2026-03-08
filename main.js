@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const hamburger = document.getElementById("hamburger");
+  const hamburger = document.getElementById("hamburger-menu");
   const navLinks = document.querySelector(".nav-links");
 
   hamburger.addEventListener("click", () => {
