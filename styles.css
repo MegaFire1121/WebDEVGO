@@ -75,6 +75,7 @@ transform: scale(0.95);
 
 .banner {
   display: block;
+  flex-shrink: 0;
   height: 50vh;
   min-height: 300px;
   max-height: 600px;
