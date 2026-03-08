@@ -116,6 +116,15 @@ transform: scale(0.95);
   flex-direction: column;
 }
 
+.post-about-me img {
+  max-width: 250px; 
+  height: auto;    
+  display: block;    
+  margin: 20px auto; 
+  border-radius: 8px; 
+}
+
+
 .post:hover {
   transform: translateY(-4px);
   box-shadow:0 6px 14px rgba(0,0,0,0.15);
@@ -127,12 +136,7 @@ transform: scale(0.95);
   display:block;
 }
 
-.post img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
-  margin-bottom: 15px;
-}
+
 
 
 
