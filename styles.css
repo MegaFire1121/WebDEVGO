@@ -95,7 +95,7 @@ transform: scale(0.95);
   text-align: center;
   border-top: 3px solid #000;
   font-size: 1rem;
-  position: relative;
+  position: fixed;
   width: 100%;
   padding: 20px;
   bottom: 0;
@@ -110,11 +110,20 @@ transform: scale(0.95);
 .post {
   background:white;
   padding:25px;
-  border-radius: 8px;
-  
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius:8px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  transition:0.2s;
+}
 
-  margin-bottom: 30px;
+.post:hover {
+  transform: translateY(-4px);
+  box-shadow:0 6px 14px rgba(0,0,0,0.15);
+}
+
+.post a {
+  text-decoration:none;
+  color:black;
+  display:block;
 }
 
 .content-wrap {
@@ -124,4 +133,17 @@ transform: scale(0.95);
   grid-template-columns: 3fr 1fr;
   gap: 30px;
   padding: 40px 20px;
+}
+
+.sidebar {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.sidebar-box {
+  background:white;
+  padding:20px;
+  border-radius:8px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
